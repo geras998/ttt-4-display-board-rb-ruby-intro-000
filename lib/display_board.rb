@@ -2,8 +2,8 @@
 # out the current state.
 def display_board(board)
   9.times do |i|
-      print " #{board[i * j + j]} "
-      if j != 2 then
+      print " #{board[i]} "
+      if i != 2 then
         print "|"
       end
     end
