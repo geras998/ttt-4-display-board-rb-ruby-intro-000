@@ -2,7 +2,7 @@
 # out the current state.
 def display_board(board)
   9.times do |i|
-    print "#{board[i]} |"
+    print " #{board[i]} "
     if i % 3 == 0 and i != 0 then
       puts ""
     end
