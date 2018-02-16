@@ -137,15 +137,7 @@ describe "#display_board in 'lib/display_board.rb" do
     end
 
     it 'prints an entire board full of Xs' do
-      # Should you want to write your own test for this situation,
-      # read the following code and comments.
-
-      # Can you copy the syntax of the tests above to write a test for a board
-      # entirely filled with Xs?"
-
-      # Define the board with values that should create the desired output
-      # *** Edit the line below ***
-      board = [" ", " ", " ", " ", " ", " ", " ", " ", " "] # This is not correct
+      board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
 
       # Don't touch the following lines.
       output = capture_puts{ display_board(board) } if defined?(display_board)
