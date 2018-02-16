@@ -4,6 +4,9 @@ def display_board(board)
   3.times do |i|
     3.times do |j|
       puts " #{board[i+j]} "
+      if j != 2 then
+        puts "|"
+      end
     end
     if i != 2 then
       puts ""
