@@ -3,7 +3,7 @@
 def display_board(board)
   9.times do |i|
     print " #{board[i]} "
-    if i % 3 == 0 and i != 0 then
+    if i+1 % 3 == 0 and i != 0 then
       puts ""
       puts "-" * 11
     end
