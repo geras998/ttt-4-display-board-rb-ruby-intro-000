@@ -11,5 +11,3 @@ def display_board(board)
   end
   puts ""
 end
-
-display_board(["X"," "," ","X","O"," "," "," ","X"])
