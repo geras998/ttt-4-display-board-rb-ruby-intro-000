@@ -3,7 +3,7 @@
 def display_board(board)
   3.times do |i|
     3.times do |j|
-      puts board[i]
+      puts " #{board[i]} "
     end
     puts ""
     puts "-" * 11
