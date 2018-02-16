@@ -6,8 +6,6 @@ def display_board(board)
     if (i+1) % 3 == 0 and i != 0 then
       puts ""
       puts "-" * 11
-    else
-      puts "|"
     end
   end
   puts ""
