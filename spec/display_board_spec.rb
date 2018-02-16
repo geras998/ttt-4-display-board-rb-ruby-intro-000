@@ -147,9 +147,6 @@ describe "#display_board in 'lib/display_board.rb" do
       expect(rows[2]).to eq(" X | X | X ")
       expect(rows[3]).to eq("-----------")
       expect(rows[4]).to eq(" X | X | X ")
-
-      # *** Comment the line below by adding a # at the line start ***
-      expect(true).to be(true)
     end
 
     it 'prints an entire board full of Os' do
