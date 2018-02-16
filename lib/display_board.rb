@@ -5,7 +5,9 @@ def display_board(board)
     3.times do |j|
       puts " #{board[i]} "
     end
-    puts ""
-    puts "-" * 11
+    if i != 2 then
+      puts ""
+      puts "-" * 11
+    end
   end
 end
