@@ -5,7 +5,7 @@ def display_board(board)
     3.times do |j|
       print " #{board[i+j]} "
       if j != 2 then
-        puts "|"
+        print "|"
       end
     end
     if i != 2 then
