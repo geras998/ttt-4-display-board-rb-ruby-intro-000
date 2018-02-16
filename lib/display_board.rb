@@ -8,8 +8,8 @@ def display_board(board)
         print "|"
       end
     end
+    puts ""
     if i != 2 then
-      puts ""
       puts "-" * 11
     end
   end
