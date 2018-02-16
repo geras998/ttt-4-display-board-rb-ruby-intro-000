@@ -5,6 +5,7 @@ def display_board(board)
     print " #{board[i]} "
     if i % 3 == 0 and i != 0 then
       puts ""
+      puts "-" * 11
     end
   end
   puts ""
