@@ -1,16 +1,9 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 def display_board(board)
-  3.times do |i|
-    3.times do |j|
-      print " #{board[]} "
-      if j != 2 then
-        print "|"
-      end
-    end
-    puts ""
-    if i != 2 then
-      puts "-" * 11
+  9.times do |i|
+    if i % 3 == 0 then
+      puts ""
     end
   end
 end
