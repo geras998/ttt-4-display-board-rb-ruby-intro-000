@@ -3,7 +3,7 @@
 def display_board(board)
   3.times do |i|
     3.times do |j|
-      print " #{board[i+1]} "
+      print " #{board[i+1 + j]} "
       if j != 2 then
         print "|"
       end
